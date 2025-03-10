@@ -2,3 +2,5 @@
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">Начинающий программист С++</h3>
 <h3>Выпускник Томского университета систем управления и радиоэлектроники (ТУСУР) по специальности: Информационная безопасность автоматизированных систем</h3>
+
+![Image](https://github.com/CTPOKA/CTPOKA/blob/output/github-contribution-grid-snake.svg)
