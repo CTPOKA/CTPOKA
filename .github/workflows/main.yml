@@ -1,0 +1,31 @@
+name: Revert Specific Commits
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  revert_commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout репозиторий
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Найти коммиты с определенным названием
+      - name: Откатиться к коммиту перед самым ранним "Update README.md"
+        run: |
+          earliest_commit=$(git log --grep="Update README.md" --format="%H" | tail -1)
+          if [[ -n "$earliest_commit" ]]; then
+            last_good_commit="$earliest_commit^"
+            echo "Откатываемся к коммиту: $last_good_commit"
+      
+            git reset --hard $last_good_commit
+            git push origin main --force
+          else
+            echo "Коммитов для отката нет."
+          fi
