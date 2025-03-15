@@ -5,5 +5,5 @@
 </p>
 
 <p align="center">
-  <img class="dynamic" src="https://avatars.githubusercontent.com/u/51439049" width="400" height="400">
+  <img class="dynamic" src="https://cdn1.ntv.com.tr/gorsel/CPI7PbD4aUiHprKpPvvinw.jpg" width="400" height="400">
 </p>
