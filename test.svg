@@ -1,4 +1,6 @@
-<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="60" viewBox="0 0 200 60" 
+     xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
 <a xlink:href="https://example.com/link1">
   <rect x="5" y="5" width="85" height="50" rx="12" fill="#00a2ff" stroke="blue" stroke-width="3"/>
 </a>
@@ -6,3 +8,4 @@
   <rect x="110" y="5" width="85" height="50" rx="12" fill="#00a2ff" stroke="blue" stroke-width="3"/>
 </a>
 </svg>
+
